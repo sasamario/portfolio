@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>myportfoliosite</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!--Webfontを使うために外部から読み込む-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:700,400">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--レスポンシブデザインの準備-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--外部からjQueryを使用するためのもの-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--外部ファイルのjavascriptを読み込む-->
+    <script type="text/javascript" src="./script.js"></script>
+    <!--slickのCSS読み込み,media="screen"はレスポンシブ対応に必要？なやつで関係ない-->
+    <link rel="stylesheet" type="text/css" href="slick.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="slick-theme.css" media="screen" />
+    <!--slickのjs読み込み-->
+    <script src="slick.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <p class="sub-title">Web coder's portfolio</p>
+      <h1 class="site-title">My name is SASAMA</h1>
+      <p class="site-description">Check out some my works</p>
+      <div class="buttons">
+        <a class="button" href="#about">ABOUT ME</a>
+        <a class="button orange" href="#works">MY WORKS</a>
+        <a class="button pink" href="#skills">MY SKILLS</a>
+        <a class="button brown" href="#contact">SEND MESSAGE</a>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <h2 class="heading">ABOUT ME</h2>
+      <p class="about-text">
+        静岡県出身。<br>
+        山形大学に在学中で、機械システム工学を専攻しています。<br>
+        現在は人工筋肉を使ったアシストスーツの開発をしています。<br>
+    　　様々なものに挑戦することが好きで、現在はHTML/CSS/Javascript/PHPを日々勉強中。<br>
+        小学生の頃からテニスをしていて、体を動かすことが好きです。また、人と話すも好きです！</p>
+    </section>
+
+    <section class="works" id="works">
+      <h2 class="heading">WORKS</h2>
+      <div class="slider">
+	       <img class="slide" src="img/work1.png">
+	       <img class="slide" src="img/work2.png">
+	       <img class="slide" src="img/work3.png">
+	       <img class="slide" src="img/work4.png">
+         <img class="slide" src="img/work5.png">
+      </div>
+      <p class="slide-text">スライド1枚目は、ドットインストールの動画レッスンでのサイト模写です。<br>
+      スライド２,３枚目は、「HTML５/CSS３モダンコーティング」模写です。<br>
+      ４枚目はドットインストールのサイト模写です。４枚目の模写はソースコードをできるだけ見ないで、自分のできる範囲で模写しました。<br>
+      ５枚目は自分で考えて作成したサイトです。ドラゴンクエスト風に仕上げてみました。テキストをタイプライター風に表示するよう工夫しました。</p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="heading">MY SKILLS</h2>
+      <div class="skills-wrapper">
+        <div class="skill-box">
+          <i class="skill-icon fa fa-code"></i>
+          <div class="skill-title">CODING</div>
+          <p class="skill-text">HTML/CSSコーティングを行います。<br>
+          見やすいコードを書くように心がけています。</p>
+        </div>
+        <div class="skill-box">
+          <i class="skill-icon fa fa-lightbulb-o"></i>
+          <div class="skill-title">IDEA</div>
+          <p class="skill-text">考えることが好きで、問題が生じた場合の解決策を考えることが得意です。<br>
+          大学の研究で日々様々なことについて考え、試行錯誤しています。</p>
+        </div>
+        <div class="skill-box">
+          <i class="skill-icon fa fa-search"></i>
+          <div class="skill-title">SEARCH</div>
+          <p class="skill-text">新しい情報に敏感で、すぐに吸収しています。<br>
+          Web業界は日々新しくなっていくためこの力を活かしていきたい。</p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="heading">CONTACT</h2>
+      <form class="contact-form">
+        <input type="text" name="name">
+        <textarea name="message"></textarea>
+        <input type="submit" value="SEND">
+      </form>
+    </section>
+    <footer class="footer">
+      ©sasama'portfolio
+    </footer>
+  </body>
+</html>
