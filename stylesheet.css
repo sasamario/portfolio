@@ -237,4 +237,7 @@ body{
   .skill-text{
     margin:0;
   }
+  .contact-form input{
+    width:100% !important;
+  }
 }
