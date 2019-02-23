@@ -13,15 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--外部ファイルのjavascriptを読み込む-->
     <script type="text/javascript" src="./script.js"></script>
-    <!--slickのCSS読み込み,media="screen"はレスポンシブ対応に必要？なやつで関係ない-->
-    <link rel="stylesheet" type="text/css" href="slick.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="slick-theme.css" media="screen" />
-    <!--slickのjs読み込み-->
-    <script src="slick.min.js"></script>
+
   </head>
   <body>
     <header class="header">
-      <p class="sub-title">Web coder's portfolio</p>
+      <p class="sub-title">My portfoliosite</p>
       <h1 class="site-title">My name is SASAMA</h1>
       <p class="site-description">Check out some my works</p>
       <div class="buttons">
@@ -36,25 +32,44 @@
       <p class="about-text">
         静岡県出身。<br>
         山形大学に在学中で、機械システム工学を専攻しています。<br>
-        現在は人工筋肉を使ったアシストスーツの開発をしています。<br>
+        以前はチームで人工筋肉を使ったアシストスーツの開発をしていました。現在は人工筋肉の疲労寿命に関する研究をしています。<br>
     　　様々なものに挑戦することが好きで、現在はHTML/CSS/Javascript/PHPを日々勉強中。<br>
-        小学生の頃からテニスをしていて、体を動かすことが好きです。また、人と話すことが好きです！</p>
+        小学1年生のころからテニスをしていて、体を動かすことが好きです。また、人と話すことが好きでテニスサークルの副サークル長をやっていました。</p>
     </section>
 
     <section class="works" id="works">
       <h2 class="heading">WORKS</h2>
-      <div class="slider">
-	       <img class="slide" src="img/work1.png">
-	       <img class="slide" src="img/work2.png">
-	       <img class="slide" src="img/work3.png">
-	       <img class="slide" src="img/work4.png">
-         <img class="slide" src="img/work5.png">
+      <div class="slide-wrapper">
+        <div class="index-btn-wrapper">
+          <div class="index-btn">1</div>
+          <div class="index-btn">2</div>
+          <div class="index-btn">3</div>
+          <div class="index-btn">4</div>
+          <div class="index-btn">5</div>
+          <div class="index-btn">6</div>
+        </div>
+          <ul class="slides">
+            <li class="slide active"><img src="./img/work1.png"></li>
+            <li class="slide"><img src="./img/work2.png"></li>
+            <li class="slide"><img src="./img/work3.png"></li>
+            <li class="slide"><img src="./img/work4.png"></li>
+            <li class="slide"><img src="./img/work5.png"></li>
+            <li class="slide"><img src="./img/newtonmethod.png"></li>
+          </ul>
+            <p class="slide-text active">1枚目のスライドは、ドットインストールの動画レッスンでのサイト模写です。基礎的な知識を確認するために模写しました。</p>
+            <p class="slide-text">2枚目のスライドは、「HTML５/CSS３モダンコーティング」模写です。</p>
+            <p class="slide-text">3枚目のスライドは、「HTML５/CSS３モダンコーティング」模写です。</p>
+            <p class="slide-text">4枚目のスライドは、ドットインストールのサイト模写です。４枚目の模写はサイトのソースコードを見ないで、自分のできる範囲で模写しました。</p>
+            <p class="slide-text">5枚目のスライドは、自分で考えて作成したサイトです。ドラゴンクエスト風に仕上げてみました。
+            jQueryを使ってテキストが1文字ずつ表示されるようなタイプライター風にすることにこだわりました。</p>
+            <p class="slide-text">6枚目のスライドは、大学の講義で作ったニュートン法のプログラムです。Pythonを用いて作りました。
+            ニュートン法とは方程式を近似的に解くアルゴリズムです。今回はx*x-2sin(x)-4=0の解を求めています。
+            Pythonに触れるのは初めてで知識もゼロのところからのスタートでしたのでネットで調べたり教わりながら作りました。
+            (初めてPythonの英語の論文を読んだときはプログラミング言語だとは知らずにニシキヘビと間違えて訳して読んでいました笑)
+            ネットにあるプログラム全く同じものではなく、独自性を出したく出力結果をグラフにプロットするようにしました。
+            x軸はiの値[回数]、y軸はlog10(f(a)の値[誤差]です。</p>
       </div>
-      <p class="slide-text">スライド1枚目は、ドットインストールの動画レッスンでのサイト模写です。<br>
-      スライド２,３枚目は、「HTML５/CSS３モダンコーティング」模写です。<br>
-      ４枚目はドットインストールのサイト模写です。４枚目の模写はサイトのソースコードを見ないで、自分のできる範囲で模写しました。<br>
-      ５枚目は自分で考えて作成したサイトです。ドラゴンクエスト風に仕上げてみました。
-      jQueryを使ってテキストが1文字ずつ表示されるようなタイプライター風にすることにこだわりました。</p>
+
     </section>
 
     <section class="skills" id="skills">
@@ -65,13 +80,13 @@
           <div class="skill-title">CODING</div>
           <p class="skill-text">HTML/CSSコーティングを行います。<br>
           見やすいコードを書くように心がけています!<br>
-        　よりまとまったコードが書けるよう勉強していきます。</p>
+        　よりまとまったコードが書けるよう日々勉強しています。</p>
         </div>
         <div class="skill-box">
           <i class="skill-icon fa fa-lightbulb-o"></i>
           <div class="skill-title">IDEA</div>
           <p class="skill-text">考えることが好きで、問題が生じた場合の解決策を考えることが得意です。<br>
-          大学の研究で日々様々なことについて考え、試行錯誤しています。</p>
+          大学の研究では課題点をどのように解決するか考え、試行錯誤しています。</p>
         </div>
         <div class="skill-box">
           <i class="skill-icon fa fa-search"></i>
@@ -81,6 +96,52 @@
         </div>
       </div>
     </section>
+
+    <section class="qaa" id="#">
+      <h2 class="heading">Q&A</h2>
+      <ul id="qaa-list">
+        <li class="qaa-list-item">
+          <h3 class="question">プログラミングを勉強する上で大事だと思うことは？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>アウトプットだと考えています。インプットばかりしていても実際にどのように使われるかイメージが出来ないと思うので
+            ちょっとしたものでも作ってみてアウトプットすることが大事だと想います。そのため自分はProgateやdotinstall、書籍でインプットをして
+          サイトの模写などでアウトプットをしました。</p>
+          </div>
+        </li>
+        <li class="qaa-list-item">
+          <h3 class="question">今までにどんな言語を学習してきましたか？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>大学の講義で、CとPythonに少しだけ触れました。講義以外では、ProgateでHTML/CSS・javascript/jQuery・PHP・Pythonを学習しました。</p>
+          </div>
+        </li>
+        <li class="qaa-list-item">
+          <h3 class="question">好きなものは何ですか？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>iPadやスマートウォッチなど新しいガジェット系が好きです。小さい頃からipod,ipodtouch等に触れてきました。現在はipad2018年モデルとApplepencilを愛用しています。
+            最新のテクノロジーに触れたいのかもしれません笑。そのため日頃からニュースアプリでテクノロジー分野の記事を読んでます！Web業界は技術の移り変わりが激しいと思いますが
+          日々勉強して最新の技術をどんどん取り込んでいきたいと思います。</p>
+          </div>
+        </li>
+        <li class="qaa-list-item">
+          <h3 class="question">好きなお菓子は何ですか？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>ポテトフライです。</p>
+          </div>
+        </li>
+        <li class="qaa-list-item">
+          <h3 class="question">好きなお菓子は何ですか？</h3>
+          <span>+</span>
+          <div class="answer">
+            <p>ポテトフライです。</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
     <section class="contact" id="contact">
       <h2 class="heading">CONTACT</h2>
       <form class="contact-form">
