@@ -13,6 +13,7 @@ body{
   font-size:1.4rem;
   font-family:Raleway,"Hiragino Kaku Gothic ProN", Meiryo , sans-serif;
 }
+
 .header{
   padding:100px 30px 100px;
 }
@@ -67,7 +68,7 @@ body{
 /**ABOUT ME**/
 .about{
   padding:80px 30px;
-  background-color:#fff;
+  background-color:#f4f5f7;
   color:#333;
 }
 .heading{
@@ -101,18 +102,60 @@ body{
 .works{
   padding:105px 50px;
 }
-.slide{
-  max-height:700px;
+.slide-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.slides {
+  padding: 0;
+}
+
+.slide {
+  display: none;
 }
 .slide-text{
-  margin:0;
-  padding-top:30px;
+  display:none;
+  padding:0 50px;
 }
+
+.active {
+  display: block;
+}
+
+ .slide img {
+  width: 400px;
+  max-height:500px;
+}
+
+.index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.index-btn {
+  display: inline-block;
+  color: #4e90af;
+  background-color: #e0f5ff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 0 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.index-btn:hover {
+  color: #fff;
+  background-color: #5cabd0;
+}
+
 
 /**MY SKILLS**/
 .skills{
   padding:60px 0 110px;
-  background-color:#fff;
+  margin-bottom:250px;
+  background-color:#f4f5f7;
   color:#333;
 }
 .skills-wrapper{
@@ -145,6 +188,40 @@ body{
   margin:0 20px;
   line-height:2;
 }
+
+/**Q&A**/
+.qaa{
+  background-color:#f4f5f7;
+  padding:50px 80px 80px;
+  color:#333;
+}
+#qaa-list{
+  width:500px;
+  margin:0 auto;
+  list-style:none;
+  padding:0;
+}
+.qaa-list-item{
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+.qaa-list-item span{
+  position:absolute;
+  top:0px;
+  right:10px;
+  font-size:2rem;
+}
+.answer{
+  display:none;
+  padding:5px 0;
+  margin-bottom:15px;
+}
+
+
+/**contact form**/
 .contact{
   padding:80px 0 150px;
 }
@@ -239,7 +316,19 @@ body{
   .skill-text{
     margin:0;
   }
-.contact-form input[type=submit]{
+  /**Q&A**/
+  .question{
+    font-size:1.2rem;
+  }
+  .answer{
+    font-size:1.0rem;
+  }
+  #qaa-list{
+    width:330px;
+  }
+ /**contact-form**/
+ .contact-form input[type=submit]{
     width:100% ;
   }
+
 }
