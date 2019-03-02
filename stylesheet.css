@@ -343,3 +343,11 @@ a{
   }
 
 }
+@media(max-width:400px){
+  .slide img{
+    width:80%;
+  }
+  .index-btn{
+    width:20px;
+  }
+}
