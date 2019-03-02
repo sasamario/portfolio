@@ -13,6 +13,9 @@ body{
   font-size:1.4rem;
   font-family:Raleway,"Hiragino Kaku Gothic ProN", Meiryo , sans-serif;
 }
+a{
+  text-decoration:none;
+}
 
 .header{
   padding:100px 30px 100px;
@@ -50,7 +53,6 @@ body{
   background-color:#afa58d;
   margin:0 10px 10px;
   color:#fff;
-  text-decoration:none;
 }
 .button:hover{
   opacity:0.9
@@ -119,7 +121,9 @@ body{
   display:none;
   padding:0 50px;
 }
-
+.slide-text a{
+  color:#1e90ff;
+}
 .active {
   display: block;
 }
@@ -127,11 +131,6 @@ body{
  .slide img {
   width: 400px;
   max-height:500px;
-}
-
-.index-btn-wrapper {
-  font-size: 16px;
-  margin-top: 20px;
 }
 
 .index-btn {
@@ -300,6 +299,17 @@ body{
   .button{
     margin-bottom:10px;
   }
+  /**MY WORKSの部分**/
+  .index-btn{
+    width:30px;
+    margin:0 2px;
+  }
+
+  .slide img{
+    width:300px;
+    max-height:400px;
+  }
+
   /**MY SKILLSの部分**/
   .skills-wrapper,.skill-box{
     display:block;
@@ -320,12 +330,13 @@ body{
   .question{
     font-size:1.2rem;
   }
+  #qaa-list{
+    width:100%;
+  }
   .answer{
     font-size:1.0rem;
   }
-  #qaa-list{
-    width:330px;
-  }
+
  /**contact-form**/
  .contact-form input[type=submit]{
     width:100% ;
