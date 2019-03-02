@@ -295,6 +295,7 @@ a{
   }
   .about-text{
     line-height:1.8;
+    font-size:1.3rem;
   }
   .button{
     margin-bottom:10px;
@@ -308,6 +309,9 @@ a{
   .slide img{
     width:300px;
     max-height:400px;
+  }
+  .slide-text{
+    padding:0 25px;
   }
 
   /**MY SKILLSの部分**/
