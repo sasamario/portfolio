@@ -107,7 +107,7 @@ a{
 .slide-wrapper {
   width: 100%;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 60px 0 0;
 }
 
 .slides {
@@ -153,7 +153,6 @@ a{
 /**MY SKILLS**/
 .skills{
   padding:60px 0 110px;
-  margin-bottom:250px;
   background-color:#f4f5f7;
   color:#333;
 }
@@ -190,7 +189,7 @@ a{
 
 /**Q&A**/
 .qaa{
-  background-color:#f4f5f7;
+  background-color:#ffdbc9;
   padding:50px 80px 80px;
   color:#333;
 }
@@ -313,6 +312,9 @@ a{
   .slide-text{
     padding:0 25px;
   }
+  .assistsuit{
+    width:400px;
+  }
 
   /**MY SKILLSの部分**/
   .skills-wrapper,.skill-box{
@@ -347,11 +349,14 @@ a{
   }
 
 }
-@media(max-width:400px){
+@media(max-width:460px){
   .slide img{
     width:80%;
   }
   .index-btn{
     width:20px;
+  }
+  .assistsuit{
+    width:300px;
   }
 }
