@@ -356,7 +356,4 @@ a{
   .index-btn{
     width:20px;
   }
-  /**スマホで動画が表示できないため**/
-  .assistsuit,.assistsuit-text{
-    display:none;
 }
