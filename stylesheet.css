@@ -313,7 +313,7 @@ a{
     padding:0 25px;
   }
   .assistsuit{
-    width:400px;
+    width:350px;
   }
 
   /**MY SKILLSの部分**/
@@ -355,5 +355,8 @@ a{
   }
   .index-btn{
     width:20px;
+  }
+  .assistsuit{
+    width:280px;
   }
 }
