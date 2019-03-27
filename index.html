@@ -64,15 +64,14 @@
             <p class="slide-text">3枚目のスライドは、「HTML５/CSS３モダンコーティング」のスタンダードレイアウト模写です。コーティングの基本的な決まり、書き方等を学びました。<br>
             使用言語はHTML/CSSです。<br><a href="https://sasamario.github.io/work3/" target="_blank">こちらから確認できます。</a></p>
             <p class="slide-text">4枚目のスライドは、ドットインストールのサイト模写です。これは実際にあるサイトをソースコードを見ないで、自分のできる範囲(見た目のみ)で模写しました。<br>
-            (今のサイトはリニューアルされて多少変わってしましました。)<br>使用言語はHTML/CSSです。<br><a href="https://sasamario.github.io/work4/" target="_blank">こちらから確認できます。</a></p>
+            使用言語はHTML/CSSです。<br><a href="https://sasamario.github.io/work4/" target="_blank">こちらから確認できます。</a></p>
             <p class="slide-text">5枚目のスライドは、自分で考えて作成したサイトです。学んだ知識のアウトプット用に作りました。ドラゴンクエスト風に作ってみようと考え
             jQueryを使ってテキストが1文字ずつ表示されるようなタイプライター風にすることにこだわりました。ポートフォリオサイトの予定でしたが途中です。<br>
             使用言語はHTML/CSS/Javascript(jQuery)です。※githubに載せたところエラーがでてしまっているため現在解決策を考えています。</p>
-            <p class="slide-text">6枚目のスライドは、大学の講義で作ったニュートン法のプログラムです。
+            <p class="slide-text">6枚目のスライドは、大学の講義での成果物として作ったニュートン法のプログラムです。
             ニュートン法とは方程式を近似的に解くアルゴリズムです。今回はx*x-2sin(x)-4=0の解を求めています。
-            Pythonに触れるのは初めてで知識もゼロのところからのスタートでしたのでネットで調べたり教わりながら作りました。
             (初めてPythonの英語の論文を読んだときはプログラミング言語だとは知らずにニシキヘビと間違えて訳して読んでいました笑)
-            ネットにあるプログラムと全く同じものではなく、独自性を出したく出力結果をグラフにプロットするようにしました。
+            ただ解を求めるだけではなく出力結果をグラフにプロットするようにしました。
             x軸はiの値[回数]、y軸はlog10(f(a)の値[誤差]です。誤差がある数値以下[e-12]になるとそこでプログラムが終了します。<br>
             使用言語はPythonです。</p>
       </div>
@@ -91,21 +90,22 @@
         <div class="skill-box">
           <i class="skill-icon fa fa-code"></i>
           <div class="skill-title">CODING</div>
-          <p class="skill-text">HTML/CSSコーティングを行います。<br>
+          <p class="skill-text">
           見やすいコードを書くように心がけています!<br>
-        　よりまとまったコードが書けるよう日々勉強中です。</p>
+        　他人が見てもわかりやすく、まとまったコードが書けるよう日々勉強中です。</p>
         </div>
         <div class="skill-box">
           <i class="skill-icon fab fa-github"></i>
           <div class="skill-title">OUTPUT</div>
           <p class="skill-text">プログラミング勉強する上でアウトプットが大事だと考えています。<br>
-            そのため、些細なものでもgithubにソースコードを載せています。</p>
+            そのため、ちょっとしたものでも作ってみてgithubにソースコードを載せています。</p>
         </div>
         <div class="skill-box">
           <i class="skill-icon fa fa-search"></i>
           <div class="skill-title">SEARCH</div>
           <p class="skill-text">新しい情報に敏感。すぐに吸収しています。<br>
-          Web業界はものすごいスピードで技術が新しくなっていくので、新しいものは積極的に取り込みます！</p>
+          日頃からQiitaやニュースアプリのテクノロジー分野などを読んだりしています。<br>
+          Web業界はものすごいスピードで技術が新しくなっていくので、新しいものにも積極的に取り込みたいです。</p>
         </div>
       </div>
     </section>
@@ -127,7 +127,7 @@
           <span>+</span>
           <div class="answer">
             <p>テニスです。小学１年生の頃からやっています。中学ではソフトテニス、高校では硬式テニスをやっていました。<br>
-            現在は大学の硬式テニスサークルに所属しておりテニスをしています。代替わりしましたがそれまでは副サークル長を務めていました。</p>
+            現在は大学の硬式テニスサークルに所属しておりテニスをしています。代替わりしましたが以前は副サークル長を務めていました。</p>
           </div>
         </li>
         <li class="qaa-list-item">
@@ -153,12 +153,15 @@
     <section class="contact">
       <h2 class="heading">CONTACT</h2>
       <form class="contact-form">
-        <input type="text" name="name">
-        <textarea name="message"></textarea>
+        <p class="contact-top">お名前：</p>
+        <input type="text" placeholder="お名前を記入してください">
+        <p class="contact-top">問い合わせ内容：</p>
+        <textarea name="message" placeholder="お問い合わせ内容を記入してください"></textarea>
         <input type="submit" value="SEND">
       </form>
-      <p>※CONTACTの機能は実装していません</p>
+      <p>※contactformの機能は実装していません。</p>
     </section>
+
     <footer class="footer">
       ©sasama'portfolio
     </footer>
