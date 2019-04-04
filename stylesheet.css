@@ -148,7 +148,12 @@ a{
   color: #fff;
   background-color: #5cabd0;
 }
-
+.before{
+  color:#ffff00;
+}
+.after{
+  color:#22ffff;
+}
 
 /**MY SKILLS**/
 .skills{
