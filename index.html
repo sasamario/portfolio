@@ -30,10 +30,9 @@
     <section class="about" id="about">
       <h2 class="heading">ABOUT ME</h2>
       <p class="about-text">
-        静岡県出身。<br>
-        山形大学に在学中で、機械システム工学を専攻しています。<br>
-        以前はチームで人工筋肉を使ったアシストスーツの開発をしていました。現在は人工筋肉の疲労寿命に関する研究をしています。<br>
-    　　様々なものに挑戦することが好きで、現在はHTML/CSS/Javascript/PHPを日々勉強中。<br>
+        出身大学は山形大学で、機械システム工学を専攻していました。<br>
+        研究室では、熱可塑性エラストマを用いた修復可能な人工筋肉の修復方法の確立に関する研究に取り組んでいました。<br>
+    　　様々なものに挑戦することが好きで、直近ではLaravelで歩数管理システムの開発やラズベリーパイとサーボモーターを用いた業務自動化などを行いました。<br>
         小学1年生の頃からテニスをしていて、体を動かすことが好きです。また、人と話すことが好きです。</p>
     </section>
 
@@ -50,40 +49,51 @@
           <div class="index-btn">7</div>
         </div>
           <ul class="slides">
-            <li class="slide active"><img src="./img/work1.png"></li>
+            <li class="slide active"><video class="steple" src="steple.mp4" width="500" height="500" poster="./img/Steple.png" controls></video><br></li>
+            <li class="slide"><video class="sasatora" src="sasatora.mp4" width="500" height="500" poster="./img/sasatora.PNG" controls></video></li>
             <li class="slide"><img src="./img/work2.png"></li>
             <li class="slide"><img src="./img/work3.png"></li>
             <li class="slide"><img src="./img/work4.png"></li>
-            <li class="slide"><img src="./img/work5.png"></li>
             <li class="slide"><img src="./img/newtonmethod.PNG"></li>
             <li class="slide"><img src="./img/terminal.PNG"></li>
           </ul>
 
-            <p class="slide-text active">1枚目のスライドは、ドットインストールの動画レッスンでのサイト模写です。基礎的な知識を確認するために模写しました。<br>
-            使用言語はHTML/CSSです。<br><a href="https://sasamario.github.io/work1/" target="_blank">こちらから確認できます。</a></p>
-            <p class="slide-text">2枚目のスライドは、「HTML５/CSS３モダンコーティング」のグリッドレイアウト模写です。可変グリッドレイアウトライブラリやCSSアニメーションについて学びました。<br>
-            使用言語はHTML/CSS/Javascript(Masonry)です。<br><a href="https://sasamario.github.io/work2/" target="_blank">こちらから確認できます。</a></p>
+            <p class="slide-text active">1枚目のスライドは、歩数管理システム「Steple」です。<br>
+            Stepleは歩数（Step）を簡単に（Simple）に管理したいという思いから名前を付けました。<br>
+            言語はPHP7、JavaScript。フレームワークはLaravel。その他は、bootstrap4、Chart.js、Sourcetree、GitHubを使用しました。<br>
+            <a href="https://steple.herokuapp.com/" target="_blank">こちらがStepleのリンクです。</a><br>
+            <a href="https://github.com/sasamario/Steple" target="_blank">こちらがGitHubのリンクです。</a></p>
+
+            <p class="slide-text">2枚目のスライドは、自動チャイム叩き機「ささとら君」です。<br>
+            製作背景は、今まで仕事の始業・終業は手動でチャイムを鳴らして全体に知らせていました。<br>
+            アラームを使用するのもよかったのですが、あえてこのチャイムをならす動作を自動化したらおもしろいだろう、
+            またラズベリーパイを使って何か作ってみたいと思い挑戦しました。（頼まれたわけではなく、同期と二人で製作しました。）<br>
+            製作期間は1日です。 使用言語はPython3。クーロンタブを用いて、指定時間にプログラムが作動するよう設定しています。<br>
+            使用したものは、ラズベリーパイ・サーボモータSG90、チャイムセットです。<br>
+            <a href="https://github.com/sasamario/sasatora" target="_blank">こちらがGitHubのリンクです。</a></p>
+
             <p class="slide-text">3枚目のスライドは、「HTML５/CSS３モダンコーティング」のスタンダードレイアウト模写です。コーティングの基本的な決まり、書き方等を学びました。<br>
-            使用言語はHTML/CSSです。<br><a href="https://sasamario.github.io/work3/" target="_blank">こちらから確認できます。</a></p>
+            使用言語はHTML/CSSです。製作時期は、2018年秋ごろです。<br><a href="https://sasamario.github.io/work3/" target="_blank">こちらから確認できます。</a></p>
+
             <p class="slide-text">4枚目のスライドは、ドットインストールのサイト模写です。これは実際にあるサイトをソースコードを見ないで、自分のできる範囲(見た目のみ)で模写しました。<br>
-            使用言語はHTML/CSSです。<br><a href="https://sasamario.github.io/work4/" target="_blank">こちらから確認できます。</a></p>
-            <p class="slide-text">5枚目のスライドは、自分で考えて作成したサイトです。学んだ知識のアウトプット用に作りました。ドラゴンクエスト風に作ってみようと考え
-            jQueryを使ってテキストが1文字ずつ表示されるようなタイプライター風にすることにこだわりました。ポートフォリオサイトの予定でしたが途中です。<br>
-            使用言語はHTML/CSS/Javascript(jQuery)です。※githubに載せたところエラーがでてしまっているため現在解決策を考えています。</p>
-            <p class="slide-text">6枚目のスライドは、大学の講義での成果物として作ったニュートン法のプログラムです。
+            使用言語はHTML/CSSです。製作時期は2018年秋ごろです。<br><a href="https://sasamario.github.io/work4/" target="_blank">こちらから確認できます。</a></p>
+
+            <p class="slide-text">5枚目のスライドは、大学の講義での成果物として作ったニュートン法のプログラムです。
             ニュートン法とは方程式を近似的に解くアルゴリズムです。今回はx*x-2sin(x)-4=0の解を求めています。
             (初めてPythonの英語の論文を読んだときはプログラミング言語だとは知らずにニシキヘビと間違えて訳して読んでいました笑)
             ただ解を求めるだけではなく出力結果をグラフにプロットするようにしました。
             x軸はiの値[回数]、y軸はlog10(f(a)の値[誤差]です。誤差がある数値以下[e-12]になるとそこでプログラムが終了します。<br>
-            使用言語はPythonです。</p>
-            <p class="slide-text">こちらはターミナルという人工筋肉に使用する部品です。私の所属している研究室では物を作る際、市販の部品だけではなく学生自作の部品も使用しています。
+            使用言語はPythonです。製作時期は2018年6月です。</p>
+
+            <p class="slide-text">こちらはターミナルという人工筋肉に使用する部品です。私の所属していた研究室では物を作る際、市販の部品だけではなく学生自作の部品も使用しています。
             <br>左の部品（銀色）が以前使用していた部品ですが１セット作るのに<span class="before">１時間もかかってしまう問題点</span>がありました。原因は高度で複雑な加工が必要だったからです。
           　<br>そこで私が新しい部品の開発に挑戦したいと申し出て左の新部品（白色）を開発しました。大部分を３Dプリンターを使用して制作したためデータさえあれば誰でも簡単に大量生産できるようになり
             １セット<span class="after">およそ５分で加工(制作)可能</span>になりました。<br>
+            製作時期は、2018年11月です。製作期間はおよそ1カ月です。<br>
             部品開発の知識はなくCADの学習や様々な問題点の解決に苦労しましたがこの経験のようにこれからも積極的に様々なことに挑戦し続けたいと思います。</p>
       </div>
       <video class="assistsuit" src="assist_suit.MOV" width="500" height="500" poster="./img/assistsuit.PNG" controls></video>
-      <p class="assistsuit-text">こちらは1月31日(木)に山形放送で放送されたものです。<br>
+      <p class="assistsuit-text">こちらは2019年1月31日(木)に山形放送で放送されたものです。<br>
       3人で人工筋肉を用いたアシストスーツを制作しました。制作期間はおよそ３ヶ月です。<br>
     　材料の加工は全て私達が行い、ハーネス（ベルト）部分・人工筋肉・電子回路・制御も全て自作です。<br>
       私が担当した箇所は主に部品の設計・開発、パーツの加工、人工筋肉の制作・ハーネス部分の制作です。<br>
@@ -99,21 +109,21 @@
           <i class="skill-icon fa fa-code"></i>
           <div class="skill-title">CODING</div>
           <p class="skill-text">
-          見やすいコードを書くように心がけています!<br>
-        　他人が見てもわかりやすく、まとまったコードが書けるよう日々勉強中です。</p>
+          他人が見てもわかりやすい、拡張性のあるコードを書くよう意識しています。<br>
+        　現在、リーダブルコードを読んで勉強中。</p>
         </div>
         <div class="skill-box">
           <i class="skill-icon fab fa-github"></i>
           <div class="skill-title">OUTPUT</div>
           <p class="skill-text">プログラミング勉強する上でアウトプットが大事だと考えています。<br>
-            そのため、ちょっとしたものでも作ってみてgithubにソースコードを載せています。</p>
+            そのため、作った物はGitHubにアップするようにしています。</p>
         </div>
         <div class="skill-box">
           <i class="skill-icon fa fa-search"></i>
           <div class="skill-title">SEARCH</div>
           <p class="skill-text">新しい情報に敏感。すぐに吸収しています。<br>
-          日頃からQiitaやニュースアプリのテクノロジー分野などを読んだりしています。<br>
-          Web業界はものすごいスピードで技術が新しくなっていくので、新しいものにも積極的に取り込みたいです。</p>
+          2020年６月からは毎日テクノロジー分野の記事を１つピックアップしてとりまとめをしています。<br>
+          その際、知らなかった語句を調べてまとめるということを行っています。</p>
         </div>
       </div>
     </section>
@@ -156,18 +166,6 @@
           </div>
         </li>
       </ul>
-    </section>
-
-    <section class="contact">
-      <h2 class="heading">CONTACT</h2>
-      <form class="contact-form">
-        <p class="contact-top">お名前：</p>
-        <input type="text" placeholder="お名前を記入してください">
-        <p class="contact-top">問い合わせ内容：</p>
-        <textarea name="message" placeholder="お問い合わせ内容を記入してください"></textarea>
-        <input type="submit" value="SEND">
-      </form>
-      <p>※contactformの機能は実装していません。</p>
     </section>
 
     <footer class="footer">
